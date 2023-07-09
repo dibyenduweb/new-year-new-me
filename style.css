@@ -162,3 +162,69 @@ h2 {
   background-color: #16d887;
 }
 /* foooter section */
+.footer-section{
+  background: black;
+  color: white;
+  margin-top: 100px;
+}
+.footer-container{
+  display: flex;
+  padding: 100px 0px;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.footer-left{
+  width: 50%;
+}
+.footer-left h2{
+  color: #fff;
+}
+.footer-left> p{
+  color: #FFF;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.address-info p{
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.social-link{
+  padding-top: 20px;
+}
+.social-link img{
+
+}
+
+h3.subscribe-title{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.contact-form{ 
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input{
+  width: 320px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #151414;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: #F3F3F3;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.btn-subscribe{
+ width: 160px;
+ height: 50px;
+ border-radius: 10px solid black;
+ background-color: white;
+ color: #F15B22;
+
+}
